@@ -1,0 +1,7 @@
+Program,Function,CPU%,Mem%,IO(MB/s),Time(real)
+progA,cpu,90.9,0,0,0m0.761s
+progA,mem,100,2.8,0,0m0.819s
+progA,io,30,0,15,0m0.905s
+progB,cpu,100,0,0,0m0.775s
+progB,mem,100,2.8,0,0m0.841s
+progB,io,27.3,0,17,0m0.935s
