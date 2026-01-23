@@ -38,3 +38,9 @@ A `Makefile` is provided to automate the entire process.
 To compile `progA` and `progB` executables:
 ```bash
 make
+```
+Or you could also execute them together with:
+```bash
+make run
+```
+This will run the bench.sh script after compiling A.cpp and B.cpp
