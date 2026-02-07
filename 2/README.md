@@ -134,6 +134,6 @@ python3 MT25088_Part_D_Plots.py
 
 ## 8. Author Information
 
-* **Name:** [Your Name]
+* **Name:** Utsav S Davda
 * **Roll Number:** MT25088
 * **Course:** Graduate Systems (CSE638)
