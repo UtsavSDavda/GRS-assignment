@@ -24,19 +24,19 @@ To run this project, the following environment is required:
 
 ## 3. Project Structure
 
-The project adheres to the strict file naming convention `MT25xxx_Part_<Section>_<File>`:
+The project adheres to the strict file naming convention `MT25088_Part_<Section>_<File>`:
 
 ### Source Code
 
-* **Baseline:** `MT25xxx_Part_A1_Server.c`, `MT25xxx_Part_A1_Client.c`
-* **One-Copy:** `MT25xxx_Part_A2_Server.c`, `MT25xxx_Part_A2_Client.c`
-* **Zero-Copy:** `MT25xxx_Part_A3_Server.c`, `MT25xxx_Part_A3_Client.c`
+* **Baseline:** `MT25088_Part_A1_Server.c`, `MT25088_Part_A1_Client.c`
+* **One-Copy:** `MT25088_Part_A2_Server.c`, `MT25088_Part_A2_Client.c`
+* **Zero-Copy:** `MT25088_Part_A3_Server.c`, `MT25088_Part_A3_Client.c`
 
 ### Automation & Analysis
 
-* **Runner Script:** `MT25xxx_Part_C_Runner.sh` - Bash script to compile, run experiments, and gather `perf` data.
-* **Plotting:** `MT25xxx_Part_D_Plots.py` - Python script using `matplotlib` with hardcoded data values.
-* **Data:** `MT25xxx_Part_B_Results.csv` - Raw profiling data collected from experiments.
+* **Runner Script:** `MT25088_Part_C_benchmark.sh` - Bash script to compile, run experiments, and gather `perf` data.
+* **Plotting:** `MT25088_Part_D_Plots.py` - Python script using `matplotlib` with hardcoded data values.
+* **Data:** `MT25088_Part_B_Results.csv` - Raw profiling data collected from experiments.
 
 ---
 
@@ -69,7 +69,7 @@ This will generate the following binaries:
 To run the full suite of experiments (Message Sizes x Thread Counts) and collect profiling data automatically:
 
 ```bash
-sudo ./MT25xxx_Part_C_Runner.sh
+sudo ./MT25088_Part_C_Runner.sh
 ```
 
 **Note:** `sudo` is required for `perf stat` to access hardware counters like cache misses and cycles.
@@ -126,7 +126,7 @@ As per assignment constraints, plots are generated using `matplotlib` with value
 To generate the graphs (Throughput, Latency, Cache Misses, CPU Cycles):
 
 ```bash
-python3 MT25xxx_Part_D_Plots.py
+python3 MT25088_Part_D_Plots.py
 ```
 
 **Note:** Do not modify the CSV reading logic; the data is embedded in the script as arrays.
@@ -135,6 +135,6 @@ python3 MT25xxx_Part_D_Plots.py
 
 ## 8. Author Information
 
-* **Name:** [Your Name]
-* **Roll Number:** MT25xxx
+* **Name:** Utsav S Davda
+* **Roll Number:** MT25088
 * **Course:** Graduate Systems (CSE638)
