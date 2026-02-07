@@ -1,4 +1,4 @@
-# MT25XXX - Replace XXX with your roll number
+# MT25088
 CC = gcc
 CFLAGS = -Wall -Wextra -O2 -pthread
 LDFLAGS = -pthread
